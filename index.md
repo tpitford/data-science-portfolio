@@ -1,6 +1,6 @@
 # Tristen Pitford
 Data Science Student  
-UNC Charlotte/ 
+UNC Charlotte
 
 ## About Me
 

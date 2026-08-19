@@ -1,9 +1,8 @@
 # Tristen Pitford
 Data Science Student  
 UNC Charlotte
-Welcome to my data science portfolio.
+Welcome to my data science portfolio
 ## About Me
-# Hello, I'm Tristen
 
 I am an undergraduate student at the University of North Carolina at Charlotte studying Sports Analytics. I have always had a strong passion for sports, especially baseball, and I am interested in how data can be used to better understand athletes, teams, performance, and decision-making.
 

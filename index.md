@@ -1,6 +1,12 @@
-Tristen Pitford
-Data Science Student
+# Tristen Pitford
+Data Science Student  
 UNC Charlotte
-An aspiring Data Science student
+---
+## About Me
 Welcome to my Data Science Studio portfolio.
-This website will document my learning and projects throughout the semester.
+This website will document my learning and projects throughout the semseter.
+---
+## Portfolio
+- [Blog](blog.md)
+- [Projects](projects.md)
+

@@ -37,11 +37,16 @@ The metrics were standardized using z-scores and combined into one score. A high
 
 ### Results
 
-The changeup had the highest average Effectiveness Score among the eight pitch types analyzed, followed by the split-finger and sweeper.
+The changeup had the highest average Effectiveness Score among the eight pitch types analyzed, followed by the split-finger and sweeper. The sinker had the lowest average Effectiveness Score, while the four-seam fastball also ranked below the overall average.
 
-The sinker had the lowest average Effectiveness Score, while the four-seam fastball also ranked below the overall average.
+![Average Effectiveness Score by Pitch Type](effectiveness_score.png)
 
-The results suggest that pitch types can differ considerably in their ability to limit offensive production across multiple measures.
+The chart above shows the average Effectiveness Score for each pitch type. Positive scores represent above-average effectiveness, while negative scores represent below-average effectiveness.
+
+The heatmap below shows how each pitch type performed across the individual metrics used to calculate the Effectiveness Score.
+
+![Pitch Type Performance Heatmap](pitch_heatmap.png)
+
 
 ### Data
 

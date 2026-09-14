@@ -6,7 +6,7 @@
 
 I am an undergraduate student at the University of North Carolina at Charlotte studying Sports Analytics. I am passionate about sports, especially baseball, and interested in how data can be used to better understand performance, decision-making, and the game itself.
 
-[View My Projects](projects.md) · [About Me](about.md) · [LinkedIn](https://www.linkedin.com/in/tristen-pitford-a57436365)
+**[Projects](projects.md)** · **[About Me](about.md)** · **[Resume](resume.md)** · **[LinkedIn](https://www.linkedin.com/in/tristen-pitford-a57436365)**
 
 ---
 

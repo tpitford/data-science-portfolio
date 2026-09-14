@@ -31,7 +31,7 @@ Changeups had the highest average Effectiveness Score at **0.713**, while sinker
 
 ## About Me
 
-My interest in sports analytics comes from both my passion for sports and my experience playing baseball. Playing college baseball helped me become interested in the analytical side of the game and how data can be used to understand and improve performance.
+My interest in sports analytics comes from both my passion for sports and my experience playing baseball. Playing baseball helped me become interested in the analytical side of the game and how data can be used to understand and improve performance.
 
 Through my coursework at UNC Charlotte, I am developing skills in Python, R, Java, statistics, data visualization, and data science.
 

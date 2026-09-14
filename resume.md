@@ -1,5 +1,7 @@
 # Tristen Pitford
 
+ttpitford@gmail.com · 660-216-3390 · Kahoka, MO
+
 ### Sports Analytics Student | Data & Performance Analysis
 
 [LinkedIn](https://www.linkedin.com/in/tristen-pitford-a57436365) · [GitHub Portfolio](https://tpitford.github.io/data-science-portfolio/)

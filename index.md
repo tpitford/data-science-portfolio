@@ -43,13 +43,14 @@ Changeups had the highest average Effectiveness Score at **0.713**, while sinker
 
 ## Featured Blog Post
 
-### What Is Data Science to Me?
+### Why Data Science Matters
 
-Data science combines programming, statistics, and problem-solving to turn data into useful information. As a Sports Analytics student, I am interested in how these skills can be applied to sports to better understand performance, identify trends, and support decision-making.
+In my first blog post, I discuss how data science can be used to better understand people and society. I also reflect on the responsibilities that come with working with data and the importance of considering the people and real-world issues behind the numbers.
 
-In my first blog post, I discuss what data science means to me and how my interest in sports and baseball has influenced my interest in the field.
+**Blog:** Why Data Science Matters
 
-[Read My Blog →](https://github.com/tpitford/data-science-portfolio/blob/main/blog.md)
+[**Read Blog Post →**](blog/blog1.md)
+
 
 ---
 

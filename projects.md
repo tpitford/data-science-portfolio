@@ -148,7 +148,7 @@ I would also repeat the analysis when the **2026 MLB season is complete** to det
 ### Code and Transparency
 
 **Direct code link:**
-[Add the direct link to the GitHub notebook or Python file here.]
+[View the full analysis code →](https://github.com/tpitford/data-science-portfolio/blob/main/project_1_analysis.ipynb)
 
 Generative AI Disclosure
 

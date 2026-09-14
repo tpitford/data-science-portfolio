@@ -47,7 +47,7 @@ Changeups had the highest average Effectiveness Score at **0.713**, while sinker
 
 In my first blog post, I discuss how data science can be used to better understand people and society. I also reflect on the responsibilities that come with working with data and the importance of considering the people and real-world issues behind the numbers.
 
-**[Read Blog Post →](blog.md)**
+[Read Blog Post →](blog.md)
 
 
 ---

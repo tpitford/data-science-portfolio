@@ -6,6 +6,7 @@ My interest in sports analytics comes from both my passion for sports and my exp
 
 Through my studies at UNC Charlotte, I am developing skills in Python, R, Java, statistics, data visualization, and data science. My coursework has given me experience working with data, creating visualizations, writing code, and using analytical methods to answer questions.
 
-One area I am especially interested in is baseball analytics. I enjoy looking at statistics and finding ways to use data to better understand players and performance. My goal is to build a career in the sports industry where I can combine my passion for sports with my interest in data and problem-solving.
+One area I am especially interested in is baseball analytics. I enjoy looking at statistics and finding ways to use data to better understand players and performance. My goal is to build a career in the sports industry where I can combine my passion for sports with my interest in data and problem-solving. I am especially interested in learning how analytics can support player evaluation, performance analysis, and decision-making within baseball organizations.
 
-Outside of school, I enjoy watching and following sports, spending time with friends and family, and continuing to learn more about sports and analytics. I hope to continue building my technical and analytical skills while gaining experience in the sports industry.
+Outside of school, I enjoy watching and following sports, spending time with friends and family, and continuing to learn more about sports and analytics. I hope to continue building my technical and analytical skills while gaining experience in the sports industry. Through future projects and opportunities, I want to continue developing my understanding of how data can be applied to real-world sports decisions.
+

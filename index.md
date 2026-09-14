@@ -37,7 +37,7 @@ Through my coursework at UNC Charlotte, I am developing skills in Python, R, Jav
 
 My goal is to build a career in the sports industry where I can combine my passion for sports with data and problem-solving.
 
-Read More About Me →
+[Read More About Me →](about.md)
 
 ---
 

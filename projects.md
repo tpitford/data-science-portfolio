@@ -154,7 +154,7 @@ Generative AI Disclosure
 
 Generative AI Tool: OpenAI ChatGPT
 Version/Model: GPT-5.6 Luna
-Purpose: I used ChatGPT to troubleshoot Python code, explain programming errors, suggest approaches for cleaning and organizing the data, help interpret my analysis results, and organize and revise portions of the written project.
+Purpose: I used ChatGPT to troubleshoot Python code, explain programming errors, suggest approaches for cleaning and organizing the data, and revise portions of the written project.
 
 ### References
 

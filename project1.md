@@ -4,9 +4,9 @@
 
 ---
 
-## Research Question
+## Problem Definition
 
-**Which MLB pitch types are most effective at limiting offensive production during the 2026 MLB season?**
+**Research Question:** Which MLB pitch types are most effective at limiting offensive production during the 2026 MLB season?
 
 Pitch effectiveness is important in baseball because pitchers use different pitch types to produce different outcomes against hitters. Understanding which pitches perform better across multiple measures can provide a broader view of pitching performance and player evaluation.
 
@@ -14,7 +14,7 @@ For this project, I analyzed 2026 MLB Statcast data to compare eight major pitch
 
 ---
 
-## Dataset
+## Dataset Description
 
 The data came from **MLB Statcast through Baseball Savant** and represents the **2026 MLB regular season through September 2, 2026**.
 
@@ -96,13 +96,9 @@ Research on baseball performance and advanced pitching data supports the use of 
 
 The results show that pitch type is associated with differences in offensive production during the **2026 MLB season through September 2, 2026**.
 
-Based on the Effectiveness Score, the **changeup was the most effective pitch type**, with an average score of **0.713**. The split-finger and sweeper followed closely behind with scores of **0.647** and **0.645**.
-
-Curveballs and sliders also performed above the overall average, while cutters were close to average.
+Based on the Effectiveness Score, the **changeup was the most effective pitch type**, with an average score of **0.713**. The split-finger and sweeper followed closely behind with scores of **0.647** and **0.645**. Curveballs and sliders also performed above the overall average, while cutters were close to average.
 
 The **4-Seam Fastball** and **Sinker** had negative effectiveness scores, with the sinker ranking lowest at **-0.525**.
-
-Overall, the results suggest that pitch types differ in their ability to limit offensive production when effectiveness is evaluated using multiple performance measures.
 
 ---
 
@@ -112,9 +108,7 @@ Overall, the results suggest that pitch types differ in their ability to limit o
 
 ![Average Effectiveness Score by Pitch Type](effectiveness_score.png)
 
-The chart compares the average Effectiveness Score for each pitch type. Changeups had the highest average score, while sinkers had the lowest.
-
-The zero line represents the overall average, making it easier to identify pitch types that performed above or below average.
+The chart above compares the average Effectiveness Score for each pitch type. Changeups had the highest average score, while sinkers had the lowest. The zero line represents the overall average, making it easier to identify pitch types that performed above or below average.
 
 ### Pitch Type Performance Heatmap
 
@@ -122,9 +116,7 @@ The zero line represents the overall average, making it easier to identify pitch
 
 The heatmap shows how each pitch type performed across the individual metrics used to calculate the Effectiveness Score.
 
-Changeups performed well across several measures, including whiff rate, wOBA, expected batting average, exit velocity, and hard-hit rate.
-
-Sinkers had the lowest whiff rate at approximately **13.8%** and also had relatively high wOBA and expected batting average, which contributed to their lower overall effectiveness score.
+Changeups performed well across several measures, including whiff rate, wOBA, expected batting average, exit velocity, and hard-hit rate. Sinkers had the lowest whiff rate at approximately **13.8%** and also had relatively high wOBA and expected batting average, which contributed to their lower overall effectiveness score.
 
 Interestingly, sliders had the highest average whiff rate at approximately **35.2%**, but they did not rank first overall. This demonstrates why I used multiple measures instead of relying on a single statistic when evaluating pitch effectiveness.
 
@@ -180,16 +172,14 @@ I would also repeat the analysis when the **2026 MLB season is complete** to det
 **Version/Model:** GPT-5.6 Luna
 **Purpose:** I used ChatGPT to troubleshoot Python code, explain programming errors, suggest approaches for cleaning and organizing the data, and revise portions of the written project.
 
-### Data Source
-
-MLB Statcast data accessed through Baseball Savant.
-
 ---
 
 ## References
 
 Cinque, M. E., LaPrade, C. M., Abrams, G. D., Sherman, S. L., Safran, M. R., & Freehill, M. T. (2022). Ulnar collateral ligament reconstruction does not decrease spin rate or performance in Major League pitchers. *The American Journal of Sports Medicine, 50*(8), 2190–2198. https://doi.org/10.1177/03635465221097421
 
-LaPrade, C. M., Cinque, M. E., Safran, M. R., Freehill, M. T., Wulf, C. A., & LaPrade, R. F. (2022). Using advanced data to analyze the impact of injury on performance of Major League Baseball pitchers: A narrative review. *Orthopaedic Journal of Sports Medicine, 10*(7), 23259671221111169. https://doi.org/10.1177/03635465221111169
+LaPrade, C. M., Cinque, M. E., Safran, M. R., Freehill, M. T., Wulf, C. A., & LaPrade, R. F. (2022). Using advanced data to analyze the impact of injury on performance of Major League Baseball pitchers: A narrative review. *Orthopaedic Journal of Sports Medicine, 10*(7), 23259671221111169. https://doi.org/10.1177/03635471221111169
 
 Watkins, C., Berardi, V., & Rakovski, C. (2021). Pitcher effectiveness: A step forward for in game analytics and pitcher evaluation. *Mathematics and Sports, 2*(1), 1–8. https://doi.org/10.5149/ms.1226
+
+**Data Source:** MLB Statcast data accessed through Baseball Savant.

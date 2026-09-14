@@ -66,4 +66,4 @@ In my first blog post, I discuss how data science can be used to better understa
 
 ## Portfolio
 
-**[Projects](projects.md)** · **[Blog](blog.md)** · **[Resume](resume.md)** · **[LinkedIn](https://www.linkedin.com/in/tristen-pitford-a57436365)**
+**[About Me](about.md)** · **[Projects](projects.md)** · **[Blog](blog.md)** · **[Resume](resume.md)** · **[LinkedIn](https://www.linkedin.com/in/tristen-pitford-a57436365)**

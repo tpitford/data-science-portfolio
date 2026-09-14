@@ -150,9 +150,11 @@ I would also repeat the analysis when the **2026 MLB season is complete** to det
 **Direct code link:**
 [Add the direct link to the GitHub notebook or Python file here.]
 
-I used generative AI as a support tool during this project. I used AI to help troubleshoot Python code, explain errors, suggest ways to clean and organize the data, and help interpret the results of my analysis. I also used AI to help organize and revise parts of the written sections of the project.
+Generative AI Disclosure
 
-I remained responsible for collecting the data, running the code, checking the results, making decisions about which variables to use, and creating the visualizations. I also reviewed AI-generated suggestions and made changes when needed. AI was used as a learning and support tool rather than as a replacement for my own analysis.
+Generative AI Tool: OpenAI ChatGPT
+Version/Model: GPT-5.6 Luna
+Purpose: I used ChatGPT to troubleshoot Python code, explain programming errors, suggest approaches for cleaning and organizing the data, help interpret my analysis results, and organize and revise portions of the written project.
 
 ### References
 

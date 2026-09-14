@@ -15,12 +15,10 @@ Sports Analytics student with a strong interest in player evaluation, performanc
 ## Education
 
 **University of North Carolina at Charlotte — B.S. in Sports Analytics**
-2025–Present
-**GPA:** 4.0
+2025–Present · **GPA:** 4.0
 
 **Culver-Stockton College — Sports Management Program**
-2024–2025
-**GPA:** 4.0
+2024–2025 · **GPA:** 4.0
 
 ## Analytics Skills
 

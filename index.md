@@ -10,6 +10,18 @@ I am an undergraduate student at the University of North Carolina at Charlotte s
 
 ---
 
+## About Me
+
+My interest in sports analytics comes from both my passion for sports and my experience playing baseball. Playing baseball helped me become interested in the analytical side of the game and how data can be used to understand and improve performance.
+
+Through my coursework at UNC Charlotte, I am developing skills in Python, R, Java, statistics, data visualization, and data science.
+
+My goal is to build a career in the sports industry where I can combine my passion for sports with data and problem-solving.
+
+[Read More About Me →](about.md)
+
+---
+
 ## Featured Project
 
 ### MLB Pitch Effectiveness — 2026
@@ -29,15 +41,15 @@ Changeups had the highest average Effectiveness Score at **0.713**, while sinker
 
 ---
 
-## About Me
+## Featured Blog Post
 
-My interest in sports analytics comes from both my passion for sports and my experience playing baseball. Playing baseball helped me become interested in the analytical side of the game and how data can be used to understand and improve performance.
+### What Is Data Science to Me?
 
-Through my coursework at UNC Charlotte, I am developing skills in Python, R, Java, statistics, data visualization, and data science.
+Data science combines programming, statistics, and problem-solving to turn data into useful information. As a Sports Analytics student, I am interested in how these skills can be applied to sports to better understand performance, identify trends, and support decision-making.
 
-My goal is to build a career in the sports industry where I can combine my passion for sports with data and problem-solving.
+In my first blog post, I discuss what data science means to me and how my interest in sports and baseball has influenced my interest in the field.
 
-[Read More About Me →](about.md)
+[Read My Blog →](https://github.com/tpitford/data-science-portfolio/blob/main/blog.md)
 
 ---
 
@@ -55,4 +67,4 @@ My goal is to build a career in the sports industry where I can combine my passi
 
 ## Portfolio
 
-[Projects](projects.md) · [Blog](blog.md) · [Resume](resume.md) · [LinkedIn](https://www.linkedin.com/in/tristen-pitford-a57436365)
+**[Projects](projects.md)** · **[Blog](blog.md)** · **[Resume](resume.md)** · **[LinkedIn](https://www.linkedin.com/in/tristen-pitford-a57436365)**

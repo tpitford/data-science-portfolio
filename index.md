@@ -44,8 +44,11 @@ My goal is to build a career in the sports industry where I can combine my passi
 ## Skills
 
 **Programming:** Python, R, Java
+
 **Data:** Pandas, NumPy, Data Analysis
+
 **Visualization:** Matplotlib, Seaborn, Plotly
+
 **Other:** Statistics, Data Science, Git/GitHub
 
 ---

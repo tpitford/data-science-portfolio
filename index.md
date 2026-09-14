@@ -24,7 +24,7 @@ Changeups had the highest average Effectiveness Score at **0.713**, while sinker
 
 **Tools:** Python · Pandas · Matplotlib · Baseball Savant
 
-[View Full Project →](projects/mlb-pitch-effectiveness.md)
+[View Full Project →](projects.md)
 
 
 ---
@@ -36,6 +36,8 @@ My interest in sports analytics comes from both my passion for sports and my exp
 Through my coursework at UNC Charlotte, I am developing skills in Python, R, Java, statistics, data visualization, and data science.
 
 My goal is to build a career in the sports industry where I can combine my passion for sports with data and problem-solving.
+
+about.md
 
 ---
 

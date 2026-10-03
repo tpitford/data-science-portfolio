@@ -234,7 +234,7 @@ I would also test the model on a future portion of the season or a separate seas
 
 ## Code and Transparency
 
-**Direct code link:** [**View the full analysis notebook →**](project_2.ipynb)
+**Direct code link:** [**View the full analysis notebook →**](https://github.com/tpitford/data-science-portfolio/blob/main/project_2.ipynb)
 
 The complete analysis, including data preparation, exploratory analysis, model development, evaluation, and visualizations, is available in the Jupyter Notebook.
 

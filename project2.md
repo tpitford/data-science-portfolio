@@ -8,21 +8,23 @@
 
 **Research Question:** Among MLB pitches that batters swing at, can pitch characteristics and game context predict whether the swing will result in a whiff?
 
+This is a **binary classification problem**, with `whiff` as the target variable. A value of 1 represents a whiff, while a value of 0 represents a non-whiff.
+
 A whiff occurs when a batter swings at a pitch and misses. Predicting whiffs can provide insight into which pitch characteristics and game situations are associated with swings and misses.
 
 For this project, I used 2026 MLB Statcast data to build machine learning models that predict whether an individual swing will result in a whiff. The project compares a baseline model, Logistic Regression, and Random Forest to evaluate how well Statcast pitch characteristics can predict the outcome.
+
+The results could be useful to pitching coaches, player-development staff, scouts, and baseball analysts who want to better understand which measurable pitch characteristics are associated with swings and misses. This problem is meaningful because identifying patterns associated with whiffs can provide additional information for evaluating pitch characteristics and developing pitching strategies.
 
 ---
 
 ## Background and Context
 
-Statcast provides pitch-level tracking data for Major League Baseball, including measurements such as pitch velocity, spin rate, pitch movement, release position, and release extension. MLB describes Statcast as a system that tracks and measures pitching, hitting, fielding, and player movement throughout Major League games.
+Statcast provides pitch-level tracking data for Major League Baseball, including measurements such as pitch velocity, spin rate, pitch movement, release position, and release extension (MLB, n.d.; Baseball Savant, n.d.).
 
 These measurements are useful for studying swings and misses because pitch characteristics can affect how a pitch moves and reaches the plate. For example, MLB defines spin rate as the amount of spin on the baseball at release and explains that spin can affect the trajectory of a pitch. Statcast also measures horizontal and vertical pitch movement, allowing pitch characteristics to be quantified rather than evaluated only through observation.
 
-Previous research has also demonstrated the value of using Statcast data for baseball performance analysis. Watkins et al. (2021) developed a pitcher-effectiveness measure using Statcast data and showed how pitch-level information can be used for performance evaluation. Kagan and Nathan (2017) discussed Statcast's ability to provide detailed measurements that can be used to analyze baseball trajectories and performance.
-
-This project applies that general idea to a specific prediction problem: determining whether measurable pitch characteristics and game context can help predict whether a batter's swing will result in a whiff. The goal is not to claim that any individual feature causes a whiff, but to determine whether these features contain useful predictive information.
+Previous research has also demonstrated the value of using Statcast data for baseball performance analysis. Watkins et al. (2021) developed a pitcher-effectiveness measure using Statcast data and showed how pitch-level information can be used for performance evaluation. Kagan and Nathan (2017) discussed Statcast's ability to provide detailed measurements that can be used to analyze baseball trajectories and performance. Kato and Yanai (2026) also used MLB data to examine how fastball characteristics and throwing mechanics relate to hitting outcomes.
 
 ---
 
@@ -59,7 +61,7 @@ The target variable was moderately imbalanced. Approximately **77.1% of swings w
 
 ---
 
-## Data Cleaning and Preparation
+## Data Preparation and Feature Selection
 
 Several steps were used to prepare the Statcast data for machine learning.
 
@@ -140,11 +142,17 @@ The Random Forest model achieved:
 
 The Random Forest produced higher accuracy, recall, F1 score, and ROC-AUC than Logistic Regression. Although its precision was lower, it identified substantially more of the actual whiffs in the test set.
 
+Both models used the same training and testing split and were evaluated on the same held-out test set, allowing for a direct comparison of their performance. I did not perform hyperparameter tuning for this initial comparison. The Random Forest used 100 trees with a `random_state` of 42.
+
 ---
 
 ## Model Evaluation and Selection
 
 The three approaches were compared using accuracy, precision, recall, F1 score, and ROC-AUC.
+
+**Accuracy** measures the percentage of all predictions that were correct. **Precision** measures the percentage of predicted whiffs that were actually whiffs. **Recall** measures the percentage of actual whiffs that the model correctly identified. **F1 score** combines precision and recall into a single measure, making it useful when the classes are imbalanced. **ROC-AUC** measures how well the model distinguishes between whiffs and non-whiffs across different classification thresholds.
+
+Because the dataset contained substantially more non-whiffs than whiffs, accuracy alone was not enough to evaluate the models. Precision, recall, F1 score, and ROC-AUC provided additional information about how well each model identified the less common whiff class.
 
 | Model               | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
 | ------------------- | -------: | --------: | -----: | -------: | ------: |
@@ -197,6 +205,10 @@ Second, the target variable was moderately imbalanced, with approximately **77.1
 Third, approximately **0.3% of the usable swing observations were removed because of missing predictor values**. Removing these observations simplified the modeling process but means those pitches were not represented in the final models.
 
 Fourth, the model does not include every factor that can influence whether a batter misses a pitch. Batter and pitcher skill, pitch sequencing, previous pitches, batter approach, game situation, and other contextual factors could affect the outcome.
+
+Another limitation is that this analysis only includes MLB regular-season data, so the results may not generalize to minor league, college, or amateur baseball. There is also a form of selection bias because the model only examines pitches that resulted in a swing. It cannot predict whether a batter will swing at a pitch in the first place. Individual differences in batter and pitcher tendencies are also not fully represented in the current feature set.
+
+Incorrect predictions could affect how players or pitches are evaluated if the model were used in a real baseball setting. For example, coaches, scouts, or analysts could place too much weight on a model prediction and make an inaccurate assessment of a player's performance or a pitch's effectiveness. For this reason, the model should be used as an additional source of information rather than as the sole basis for player or coaching decisions.
 
 The model also made **8,701 false-negative predictions**, meaning actual whiffs were classified as non-whiffs. This shows that the model should not be treated as a perfect predictor.
 

@@ -81,17 +81,18 @@ The target variable was not evenly distributed across the dataset. Of the 272,16
 
 The numerical summary statistics also provided information about the typical characteristics of the pitches in the dataset. The average release speed was 89.83 mph, the average release spin rate was 2,260 rpm, and the average release extension was 6.44 feet. The average horizontal and vertical plate locations were approximately 0.02 feet and 2.30 feet, respectively. Balls ranged from 0 to 3 and strikes ranged from 0 to 2, representing the count at the time of the pitch.
 
-Exploratory Visualizations
+### Exploratory Visualizations
 
 The distribution of pitch velocity was concentrated around the typical range of MLB pitch speeds, while the distribution of spin rate showed most observations clustered within a central range with some observations at the lower and higher ends. These visualizations helped describe the pitch characteristics before modeling.
 
+![Distribution of Pitch Velocity](pitch_velocity_distribution.png)
 
-
-
-
-
+![Distribution of Spin Rate](spin_rate_distribution.png)
 
 The distribution of the target variable also showed a clear class imbalance. Non-whiffs represented 77.1% of the observations, while whiffs represented 22.9%. This imbalance reinforced the need to evaluate the models using metrics beyond accuracy.
+
+![Distribution of Whiff vs. Non-Whiff Outcomes](whiff_distribution.png)
+
 
 Some variables contained unusual or extreme observations. For example, release speed ranged from 30.6 to 105.5 mph, while release spin rate ranged from 15 to 3,599 rpm. These extreme values were treated as potential outliers rather than automatically removed because an extreme observation does not necessarily mean that the Statcast measurement is invalid. Removing observations without a documented domain-based rule could also remove legitimate pitches. The final models therefore used the available observations after removing rows with missing values in the selected predictors.
 
